@@ -1,67 +1,50 @@
 # Analysis 2 Doing Excel Work with Python
+## By: Haley McDowell
 
-Information on using this cookiecutter
+Documentation
+--------------
+This project folder corresponds with Summer 2025 AAP HW2 Analysis 2: Wrangling csv files.
 
-Development workflows
-=======================
-
-Create new project
-----------------------
-
-You've already done this if you are reading this file. You ran:
-
-```bash
-cookiecutter gh:haleymcdowell/cookiecutter-datascience-simple
-```
-
-Put project under version control
----------------------------------
-
-Let's get version control set up. You don't absolutely have to do this, but you should. For the local repository, do;
-
-```bash
-git init
-git add .
-git commit -m "Initial commit"
-```
-
-For the remote repository, make a github repository named Analysis 2 Doing Excel Work with Python, then do;
-
-```bash
-git remote add origin git@github.com:haleymcdowell/Analysis 2 Doing Excel Work with Python.git
-git branch -M main
-git push -u origin main
-```
-
-Great. Using version control is good.
-
+Important Documents:
+ - aap_hw2_excel_python_s25.docx - This is the document containing all project requirements.
+ - analysis2_hw2.ipynb - This is the document containing all code and comments for this project.
+ - data/BCM.xlsx - This is the Excel file created from the code.
 
 Folder structure
 -----------------
 
-Here's the folder structure that gets created by `cookiecutter-datascience-simple`:
+Here's the folder structure:
 
-	├── Analysis 2 Doing Excel Work with Python	<- Your notebooks and scripts will live in the main project folder
-		│   .gitignore					<- Common file types for git to ignore
-		│   README.md					<- The top-level README for developers (you) using this project
-		│   template-nb.ipynb			<- A Jupyter notebook template
+	├── Analysis 2 Doing Excel Work with Python	
+		|   .gitignore	
+		│   aap_hw2_excel_python_s25.docx
+		|   analysis_hw2.ipynb
+		│   README.md					
 		│
-		├───data						<- Final and intermediate data
-		│   └───raw						<- The original, immutable data dump
+		├───data	
+		|   BCM.xlsx
+		│   └───raw
+		|       └───logs
+		|           BCM-E-tCenter-Deep.csv
+		|           BCM-E-tCenter-Medium.csv
+		|           BCM-E-tCenter-Shallow.csv
+		|           BCM-E-tLeft-Deep.csv
+		|           BCM-E-tLeft-Medium.csv
+		|           BCM-E-tRight-Deep.csv
+		|           BSM-E-tRight-Medium.csv
+		|           BSM-N-tCenter-Deep.csv
+		|           BSM-N-tCenter-Medium.csv
+		|           BSM-N-tLeft-Deep.csv
+		|           BSM-N-tLeft-Medium.csv
+		|           BSM-N-tRight-Deep.csv
+		|           BSM-N-tRight-Medium.csv
+		|           BCM-N-tRight-Shallow.csv
 		│
 		├───docs
-		│       notes.md				<- Simple markdown template for project notes
+		│   notes.md			
 		│
 		└───output
-				readme.md				<- Guidance for using this folder
-
-
-Documentation
---------------
-
-In this very simple project structure template, we've just included a markdown file with some typical
-section headings to use for project notes. Expand as desired. Later in the semester we will learn how to
-use Sphinx with restructuredText to write and generate documentation.
+				readme.md			
 
 
 
